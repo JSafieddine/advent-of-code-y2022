@@ -37,6 +37,7 @@ library:
   source-dirs: src
   dependencies:
   - split
+  - megaparsec
 
 executables:
   advent-of-code-y2022-exe:

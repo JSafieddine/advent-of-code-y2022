@@ -1,4 +1,4 @@
-module AdventOfCode.Day1 where
+module AdventOfCode.Day1 (day1, part1, part2) where
 
 import Data.List (sort)
 import Data.List.Split (splitOn)
