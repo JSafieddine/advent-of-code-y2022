@@ -27,6 +27,7 @@ library
   exposed-modules:
       AdventOfCode.Day1
       AdventOfCode.Day2
+      AdventOfCode.Day3
   other-modules:
       Paths_advent_of_code_y2022
   hs-source-dirs:
@@ -56,6 +57,7 @@ test-suite advent-of-code-y2022-test
   other-modules:
       AdventOfCode.Day1Spec
       AdventOfCode.Day2Spec
+      AdventOfCode.Day3Spec
       Paths_advent_of_code_y2022
   hs-source-dirs:
       test
