@@ -36,6 +36,7 @@ ghc-options:
 library:
   source-dirs: src
   dependencies:
+  - containers
   - split
   - megaparsec
 
@@ -60,6 +61,7 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - advent-of-code-y2022
+    - containers
     - hspec
     - hspec-megaparsec
     - megaparsec 
