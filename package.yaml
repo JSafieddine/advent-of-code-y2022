@@ -39,6 +39,7 @@ library:
   - containers
   - split
   - megaparsec
+  - microlens
 
 executables:
   advent-of-code-y2022-exe:
